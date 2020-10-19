@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <!-- Meta tags -->
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <!-- Custom Style -->
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background: #f7f7f7;
+                margin: 1rem;
+            }
+            ::placeholder {
+                width: 10rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                padding-top: 1rem;
+                text-align: center;
+            }
+            input {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+        <div class="card-body">
+            <form class="form-inline">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="inputBase" placeholder="Input base">
+                    <label>
+                        <svg width="2rem" height="2rem" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                        </svg>
+                    </label>
+                    <input type="text" class="form-control" id="outputBase" placeholder="Output base">
+                </div>
+            </form>
+            <form class="form-inline">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="inputNumber" placeholder="Input number">
+                    <label>
+                        <svg width="2rem" height="2rem" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                        </svg>
+                    </label>
+                    <input type="text" class="form-control" id="outputNumber" placeholder="Output number" readonly>
+                </div>
+            </form>
+        </div>
+        <button type="button" class="btn btn-outline-dark">Convert</button>
+    </div>
+    </body>
+</html>
