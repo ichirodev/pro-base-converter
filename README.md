@@ -2,10 +2,14 @@
 
 ## To Use
 ### From source
-To run this software you are gonna need git and NodeJS
-[Git for Windows](https://git-scm.com/download/windows)
-[Git for MacOS](https://git-scm.com/download/mac)
+To run this software you are gonna need git and NodeJS 
+
+[Git for Windows](https://git-scm.com/download/windows) 
+
+[Git for MacOS](https://git-scm.com/download/mac) 
+
 [NodeJS](https://nodejs.org/en/download/)
+
 Once you have the pre-requisites installed on your computer.
 ```bash
 # Clone this repository
