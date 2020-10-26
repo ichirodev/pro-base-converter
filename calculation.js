@@ -1,3 +1,5 @@
+// https://youtu.be/BZNtxpO9DoA
+
 function convertBase(value, iBase, oBase) {
     const dictionary = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!#$%&()*+-;<=>?@^_`{|}~";
     const maxBase = dictionary.length;
@@ -22,4 +24,12 @@ function convertBase(value, iBase, oBase) {
     }
     
     return newValue || '0';
+}
+
+function buttonCalculate() {
+    var inputBase = parseInt(document.getElementById("inputBase").value, 10);
+    var outputBase = parseInt(document.getElementById("outputBase").value, 10);
+    var inputNumber = document.getElementById("inputNumber").value;
+    var outputNumber = convertBase(inputNumber, inputBase, outputBase);
+    document.getElementById("outputNumber").value = outputNumber;
 }
