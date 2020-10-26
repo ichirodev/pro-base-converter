@@ -12,7 +12,8 @@ function createWindow () {
         center: true,
         maximizable: false,
         resizable: false,
-        title: "Pro Base Converter 0.0.1 Beta"
+        title: "Pro Base Converter 0.0.2 Beta",
+        icon: "./pro-base-converter.ico"
     });
 
     // Load html file as UI

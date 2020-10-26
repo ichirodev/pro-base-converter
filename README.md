@@ -1,5 +1,4 @@
-# Pro Base Converter
-
+![Pro Base Converter](header_readme.png)
 ## To Use
 ### From source
 To run this software you are gonna need git and NodeJS 
@@ -21,5 +20,5 @@ npm install
 # Run the app
 npm start
 ```
-### From executable
-Executable files are gonna be produced once there is a stable version of the software
+### From official releases
+Download for [Windows](https://github.com/ichirodev/pro-base-converter/releases/download/v0.0.2-beta/pro-base-converter-0.0.2-beta_amd64_w32.exe)
